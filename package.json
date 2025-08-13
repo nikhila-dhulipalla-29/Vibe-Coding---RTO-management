@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist -r https://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@github.com/nikhila-dhulipalla-29/Vibe-Coding---RTO-management.git"
   },
   "dependencies": {
     "react": "^19.1.1",
