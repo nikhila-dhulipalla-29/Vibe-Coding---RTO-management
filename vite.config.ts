@@ -4,10 +4,11 @@ import path from 'path';
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
   return {
-    base: '/Vibe-Coding---RTO-management/', // repo name
+    // Must match GitHub repo name exactly (case-sensitive)
+    base: '/Vibe-Coding---RTO-management/',
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, './src'),
+        '@': path.resolve(__dirname, './src'), // points to your source folder
       },
     },
     define: {
